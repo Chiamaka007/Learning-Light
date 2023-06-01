@@ -5,8 +5,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .dashboard {
@@ -215,3 +214,132 @@ input {
     border-radius: 10px;
     color: white;
 }
+
+/* Body CONTENT */
+.body-flex {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.w-70 {
+    width: 70%;
+
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.text-blue {
+    color: #535ADF;
+}
+
+.inclusive-design {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #EFF0FF;
+    padding: 20px;
+    border-radius: 4%;
+    color: #503B71;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.min {
+    display: flex;
+    width: fit-content;
+
+    padding: 6px;
+    gap: 4px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: #E1E3FE;
+
+}
+
+.min2 {
+    display: flex;
+    width: fit-content;
+    margin: 0;
+    padding: 6px;
+    gap: 4px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #E1E3FE;
+}
+
+.globe {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.articles-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.design-trends {
+    background-color: #EFF0FF;
+    padding: 20px;
+    border-radius: 4%;
+    color: #503B71;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.chats {
+    background-color: #EFF0FF;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-text {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Bottom Content */
+
+.video-lessons {
+    background: linear-gradient(to right,
+
+            #5A61E9,
+            #5A61E9 60%,
+            #5057DE 60%,
+            #5057DE 73.33%,
+            #4249D1 73.33%,
+            #4249D1 86.3%,
+            #383FBB 86.3%,
+            #383FBB);
+
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 450px;
+}
+
+.heading {
+    padding-bottom: 150px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.opacity {
+    color: rgba(234, 240, 246, 0.8);
+}
+
+/* Body end */
