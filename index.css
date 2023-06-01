@@ -326,7 +326,7 @@ input {
             #383FBB);
 
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     width: 450px;
 }
@@ -341,5 +341,70 @@ input {
 .opacity {
     color: rgba(234, 240, 246, 0.8);
 }
+
+.card {
+    background-color: #5A61E9;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card1-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 80px solid #555;
+    position: absolute;
+    margin-left: 50px;
+
+}
+
+.card2 {
+    background-image: radial-gradient(circle at top right,
+            #4249D1,
+            #4249D1 40%,
+            #5A61E9 40%,
+            #5A61E9);
+    ;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+.video-lesson-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.teachers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.teachers img {
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
 
 /* Body end */
