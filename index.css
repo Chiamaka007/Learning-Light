@@ -6,6 +6,12 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #58597A;
+}
+
+h2 {
+    font-weight: 500;
 }
 
 .dashboard {
@@ -24,21 +30,27 @@ body {
 
 .wrapper {
     padding: 0 25px;
-    height: 100vh;
+
     display: flex;
     flex-direction: column;
 }
 
 .navigation {
     width: 270px;
+    height: 100%;
     border-right: 1px solid #ddd;
 
 }
 
 .learning-light {
-    text-align: center;
+    justify-content: center;
     margin: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 500;
     font-size: 20px;
+    color: #555778;
     border-bottom: 1px solid #EEF0FF;
 }
 
@@ -72,7 +84,7 @@ body {
 
 .icon-name1 {
     margin-left: 10px;
-    color: #8b47a9;
+    color: #535ADF;
 }
 
 .icon-name {
@@ -138,18 +150,24 @@ body {
 
 .right-header {
     border-bottom: 1px solid #EEF0FF;
-    padding-block: 15px;
+    padding-block: 19px;
 
 }
 
 input {
     width: 600px;
-    padding: 7px;
+    padding: 8px;
     background-color: #EFF0FF;
     border-radius: 7px;
     border: none;
     outline: none;
     margin-left: 30px;
+
+}
+
+::placeholder {
+    color: #A399B6;
+    font-weight: 600;
 }
 
 .right-body {
@@ -233,6 +251,7 @@ input {
 
 .text-blue {
     color: #535ADF;
+    font-weight: 600;
 }
 
 .inclusive-design {
@@ -243,6 +262,13 @@ input {
     padding: 20px;
     border-radius: 4%;
     color: #503B71;
+}
+
+.img-profile {
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 9px;
 }
 
 .m-0 {
@@ -338,21 +364,52 @@ input {
     font-weight: 300;
 }
 
+.heading2 {
+    margin-top: 0;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
 .opacity {
     color: rgba(234, 240, 246, 0.8);
+    font-size: 14px;
+}
+
+.opacity2 {
+    color: #CDC6D6;
+    font-size: 14px;
 }
 
 .card {
     background-color: #5A61E9;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 0 10px;
     border-radius: 10px;
     color: white;
+}
+
+.gradeTriangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 90px solid #020323;
+    border-right: 35px solid transparent;
+    border-left: 45px solid transparent;
+    border-bottom-right-radius: 25px;
+    opacity: 30%;
+    bottom: 0;
+    right: -8px;
+    mix-blend-mode: color-burn;
+    position: absolute;
 }
 
 .card1-profile {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-blend-mode: overlay;
     position: relative;
 }
 
@@ -370,11 +427,12 @@ input {
 .card2 {
     background-image: radial-gradient(circle at top right,
             #4249D1,
-            #4249D1 40%,
-            #5A61E9 40%,
+            #4249D1 30%,
+            #5A61E9 30%,
             #5A61E9);
     ;
     padding: 10px;
+    font-size: 13px;
     border-radius: 10px;
     color: white;
 
@@ -405,6 +463,13 @@ input {
     align-items: center;
 }
 
+.time {
+    background-color: #2F3163;
+    padding-inline: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 8px;
+}
 
 
 /* Body end */
