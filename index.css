@@ -370,7 +370,7 @@ input {
 
 .heading2 {
     margin-top: 0;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     font-size: 14px;
     font-weight: 300;
 }
@@ -397,7 +397,7 @@ input {
     height: 0px;
     border-bottom: 88px solid #020323;
     border-right: 35px solid transparent;
-    border-left: 45px solid transparent;
+    border-left: 55px solid transparent;
     border-bottom-right-radius: 25px;
     opacity: 30%;
     bottom: 0;
@@ -422,33 +422,24 @@ input {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 13px;
+    font-size: 14px;
     padding-bottom: 10px;
     padding-right: 10px;
     background-blend-mode: overlay;
     position: relative;
 }
 
-.triangle {
-    width: 0;
-    height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-bottom: 80px solid #555;
-    position: absolute;
-    margin-left: 50px;
 
-}
 
 .card2 {
     background-image: radial-gradient(circle at top right,
             #4249D1,
-            #4249D1 30%,
-            #5A61E9 30%,
+            #4249D1 35%,
+            #5A61E9 35%,
             #5A61E9);
     ;
     padding: 10px;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 10px;
     color: white;
 
