@@ -10,8 +10,11 @@ body {
     color: #58597A;
 }
 
+
+
 h2 {
     font-weight: 500;
+    font-size: 20px;
 }
 
 .dashboard {
@@ -213,7 +216,7 @@ input {
 
 .header {
     padding-inline: 20px;
-    padding-block: 40px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     gap: 10px;
@@ -240,8 +243,9 @@ input {
 /* Body CONTENT */
 .body-flex {
     padding: 20px;
+    padding-inline: 30px;
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 .w-70 {
@@ -263,8 +267,8 @@ input {
     align-items: center;
     gap: 30px;
     background-color: #EFF0FF;
-    padding: 20px;
-    border-radius: 4%;
+    padding: 17px;
+    border-radius: 10px;
     color: #503B71;
 }
 
@@ -288,7 +292,7 @@ input {
     border-radius: 10px;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 37px;
     background-color: #E1E3FE;
 
 }
@@ -312,12 +316,13 @@ input {
 .articles-flex {
     display: flex;
     gap: 10px;
+
 }
 
 .design-trends {
     background-color: #EFF0FF;
-    padding: 20px;
-    border-radius: 4%;
+    padding: 17px;
+    border-radius: 10px;
     color: #503B71;
 }
 
@@ -329,7 +334,7 @@ input {
 
 .chats {
     background-color: #EFF0FF;
-    padding: 20px;
+    padding: 16px;
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -387,7 +392,7 @@ input {
 
 .card {
     background-color: #5A61E9;
-    padding: 10px 0 0 10px;
+    padding: 14px 0 0 14px;
     border-radius: 10px;
     color: white;
 }
@@ -397,7 +402,7 @@ input {
     height: 0px;
     border-bottom: 88px solid #020323;
     border-right: 35px solid transparent;
-    border-left: 55px solid transparent;
+    border-left: 58px solid transparent;
     border-bottom-right-radius: 25px;
     opacity: 30%;
     bottom: 0;
@@ -438,7 +443,7 @@ input {
             #5A61E9 35%,
             #5A61E9);
     ;
-    padding: 10px;
+    padding: 14px;
     font-size: 14px;
     border-radius: 10px;
     color: white;
